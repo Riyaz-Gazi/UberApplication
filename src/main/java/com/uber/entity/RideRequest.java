@@ -33,4 +33,6 @@ public class RideRequest {
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Rider rider;
+
+    private Double fare;
 }
